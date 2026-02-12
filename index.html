@@ -25,7 +25,7 @@
 </head>
 <body>
     <header>
-        <h1>Federico Lauritano</h1>
+        <h1>Federica Maria Laudizi</h1>
         <p class="subtitle">Software Development Engineer at Amazon</p>
         <p>MSc Computer Science & AI @ Politecnico di Milano</p>
     </header>
@@ -50,8 +50,11 @@
             </div>
             <p class="entry-subtitle">Milan</p>
             <ul>
-                <li>Research on explaining arithmetic abilities of Large Language Models under Prof. Mark Carman</li>
-                <li>Investigated emergent arithmetic circuits in Llama models, identifying Fourier-like periodic integer encodings</li>
+                     <li>Applied mechanistic interpretability to reverse-engineer arithmetic reasoning in LLaMA-3.1-8B, analyzing internal activations and attention patterns in zero-shot setting</li>
+                     <li>Discovered Fourier-like periodic number representations (T≈2, 10, 100) encoding parity and decimal structure; validated causally via LIME coefficients and activation patching</li>
+                     <li>Isolated specialized attention heads (Layer 11: Heads 6, 13-15; Layer 9: Head 23) executing algorithm-like functions; identified Head 14 as a max(a,b) comparator using direct logit attribution</li>
+                     <li>Conducted ablation studies revealing interpretable failure modes: removing heads 13-15 causes systematic default to first operand, proving their role as information routers</li>
+                     <li>Performed PCA on residual stream across 10K+ prompts, localizing arithmetic computation to layers 0-16 in a low-dimensional subspace (top 20 principal components)</li>
             </ul>
         </div>
         <div class="entry">
