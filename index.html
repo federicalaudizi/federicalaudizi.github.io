@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Lauritano</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; }
+        header { margin-bottom: 2rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subtitle { color: #666; margin-bottom: 1rem; }
+        h2 { font-size: 1.25rem; color: #2563eb; margin: 1.5rem 0 1rem; border-bottom: 2px solid #2563eb; padding-bottom: 0.25rem; }
+        .entry { margin-bottom: 1.5rem; }
+        .entry-header { display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .entry-title { font-weight: 600; }
+        .entry-date { color: #666; }
+        .entry-subtitle { color: #666; font-style: italic; }
+        ul { margin: 0.5rem 0 0.5rem 1.5rem; }
+        .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .skill { background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.875rem; }
+        a { color: #2563eb; }
+        @media (max-width: 600px) { .entry-header { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Federico Lauritano</h1>
+        <p class="subtitle">Software Development Engineer at Amazon</p>
+        <p>MSc Computer Science & AI @ Politecnico di Milano</p>
+    </header>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Amazon - Software Development Engineer</span>
+                <span class="entry-date">Oct 2025 - Present</span>
+            </div>
+            <p class="entry-subtitle">Madrid</p>
+            <ul>
+                <li>Developed customer-facing features in Amazon marketplaces, improving purchase conversion on high-traffic placements</li>
+                <li>Designed A/B experiments to evaluate feature impact, establishing operational visibility through CloudWatch dashboards</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Politecnico di Milano - Student Researcher</span>
+                <span class="entry-date">Jan 2025 - Dec 2025</span>
+            </div>
+            <p class="entry-subtitle">Milan</p>
+            <ul>
+                <li>Research on explaining arithmetic abilities of Large Language Models under Prof. Mark Carman</li>
+                <li>Investigated emergent arithmetic circuits in Llama models, identifying Fourier-like periodic integer encodings</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Amazon - Software Development Engineer Intern</span>
+                <span class="entry-date">Jul 2024 - Oct 2024</span>
+            </div>
+            <p class="entry-subtitle">Madrid</p>
+            <ul>
+                <li>Created CLI tool for monitoring dashboard management, saving an estimated 27 SDE weeks annually</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">MSc Computer Science and Engineering - AI</span>
+                <span class="entry-date">Sep 2023 - Dec 2025</span>
+            </div>
+            <p class="entry-subtitle">Politecnico di Milano</p>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">BSc Computer Engineering</span>
+                <span class="entry-date">Sep 2020 - Sep 2023</span>
+            </div>
+            <p class="entry-subtitle">Politecnico di Milano • Exchange at Universidad Complutense de Madrid</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="entry">
+            <span class="entry-title">Biomedical Question Answering with Transformers</span>
+            <ul>
+                <li>Compared 7 models on PubMedQA; implemented two-phase fine-tuning for PubMedBERT reaching 73.4% macro F1</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <span class="entry-title">CNN Leaves Classification</span>
+            <ul>
+                <li>Achieved 92% accuracy using EfficientNet with stratified sampling and data augmentation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Java</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">PyTorch</span>
+            <span class="skill">TensorFlow</span>
+            <span class="skill">AWS</span>
+            <span class="skill">Hugging Face</span>
+            <span class="skill">JAX</span>
+            <span class="skill">SQL</span>
+        </div>
+    </section>
+</body>
+</html>
